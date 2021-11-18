@@ -4,11 +4,13 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 body {
-  background-image: linear-gradient(to bottom, #aaffa9, #11ffbd);
+  background-image: linear-gradient(to left, #31558a, #e41be8);
   width: 100vw;
   height: 100vh;
   font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
 }
+
 .logo {
   display: flex;
   flex-direction: column;
@@ -26,7 +28,7 @@ body {
 .logo #name {
   margin-top: 1.3em;
   font-weight: bold;
-  color: #000000c9;
+  color: #ffffff;
 }
 
 .links {
@@ -42,28 +44,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 40px;
-  box-shadow: 5px 5px #ced4da;
+  border-radius: 21px;
+  box-shadow: 9px 9px #ced4da;
 }
 
 .url {
   height: 30px;
   width: 50%;
-  margin-top: 21px;
-  color: #8e9aaf;
-  transition: 0.3s ease-out;
+  margin-top: 25px;
+  color: #000000;
+  font-weight: normal;
+  transition: 0.7ms ease-in-out;
+  display: flex;
 }
+
 a:hover {
-  background-color: #ebe5e5;
-  box-shadow: 0 0 5px 5px #f0fff0;
+  background-color: #f1ebeb;
+  box-shadow: 5px 5px #3a7bd5;
 }
 /* 
 .links .icon {
   position: relative;
   left: 1em;
 } */
+/* .links .icon {
+  position: absolute;
+  left: auto;
+  margin-left: 100px;'
+} */
+
 .links .icon {
   position: fixed;
-  left: auto;
-  margin-left: 110px;
+  margin-left: 130px;
+}
+
+#space {
+  visibility: hidden;
 }
