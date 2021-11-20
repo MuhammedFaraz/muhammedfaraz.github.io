@@ -14,10 +14,18 @@ body {
 /* Media Queries */
 @media (max-width: 600px) {
   body{
-    height: 109vh;
+    height: 111vh;
   }
-  .links.url.img {
-    position: absolute;
+  .links .url{
+    font-size: 15px;
+    font-weight:400;
+    padding: 21px;
+    height: 18px;
+    width: 70%;
+  }
+  .links.url.icon {
+    position: relative;
+   
   }
 }
 
@@ -72,16 +80,6 @@ a:hover {
   background-color: #f1ebeb;
   box-shadow: 5px 5px #3a7bd5;
 }
-/* 
-.links .icon {
-  position: relative;
-  left: 1em;
-} */
-/* .links .icon {
-  position: absolute;
-  left: auto;
-  margin-left: 100px;'
-} */
 
 .links .icon {
   position: fixed;
