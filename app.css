@@ -24,8 +24,7 @@ body {
     width: 70%;
   }
   .links.url.icon {
-    position: relative;
-   
+    position: fixed;
   }
 }
 
@@ -82,8 +81,8 @@ a:hover {
 }
 
 .links .icon {
-  position: fixed;
-  margin-left: 130px;
+  position: absolute;
+  margin-left: 127px;
 }
 
 #space {
