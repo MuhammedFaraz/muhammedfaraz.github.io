@@ -11,6 +11,16 @@ body {
   overflow-x: hidden;
 }
 
+/* Media Queries */
+@media (max-width: 600px) {
+  body{
+    height: 109vh;
+  }
+  .links.url.img {
+    position: absolute;
+  }
+}
+
 .logo {
   display: flex;
   flex-direction: column;
