@@ -82,7 +82,10 @@ a:hover {
 
 .links .icon {
   position: absolute;
-  margin-left: 127px;
+  margin-left: 119px;
+}
+.links .icon:hover{
+  padding-bottom: .7em;
 }
 
 #space {
