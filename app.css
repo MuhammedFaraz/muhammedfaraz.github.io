@@ -1,51 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
 body {
-  background-image: linear-gradient(to left, #31558a, #e41be8);
-  width: 100vw;
+  background-image: linear-gradient(62deg, #8ec5fc 34%, #e0c3fc 100%);
   height: 100vh;
-  font-family: "Nunito", sans-serif;
-  overflow-x: hidden;
+  width: 100vw;
+  font-family: "Noto Sans", sans-serif;
 }
 
-/* Media Queries */
-@media (max-width: 600px) {
-  body{
-    height: 111vh;
-  }
-  .links .url{
-    font-size: 15px;
-    font-weight:400;
-    padding: 21px;
-    height: 18px;
-    width: 70%;
-  }
-  .links.url.icon {
-    position: fixed;
-  }
-}
-
-.logo {
+.box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
-.logo img {
-  margin-top: 45px;
-  height: 96px;
-  width: 96px;
-  border-radius: 50%;
-}
 
-.logo #name {
-  margin-top: 1.3em;
-  font-weight: bold;
+.box #img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+#name {
   color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1rem;
 }
 
 .links {
@@ -56,38 +40,25 @@ body {
 
 .links a {
   padding: 21px;
+  background-color: #f8f7ff;
   text-decoration: none;
-  background-color: #ffffff;
+  font-size: large;
+  border: solid 2px #f8f7ff;
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
-  border-radius: 21px;
-  box-shadow: 9px 9px #ced4da;
+  transition: all 0.9ms cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-.url {
-  height: 30px;
-  width: 50%;
-  margin-top: 25px;
-  color: #000000;
-  font-weight: normal;
-  transition: 0.7ms ease-in-out;
-  display: flex;
+.link {
+  height: 2vh;
+  width: 39vw;
+  margin-top: 21px;
+  border-radius: 40px;
 }
 
 a:hover {
-  background-color: #f1ebeb;
-  box-shadow: 5px 5px #3a7bd5;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.links .icon {
-  position: absolute;
-  margin-left: 119px;
-}
-.links .icon:hover{
-  padding-bottom: .7em;
-}
-
-#space {
-  visibility: hidden;
-}
