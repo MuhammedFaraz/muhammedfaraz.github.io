@@ -1,1 +1,1 @@
-This is a wannabe linktree profile page.
+Linktree 🌲clone for all my social links :)
